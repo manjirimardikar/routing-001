@@ -1,0 +1,48 @@
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+
+.lefthome{
+    width:50%;
+    height: 100%;
+    padding: 3rem   2rem ;
+
+}
+.lefthome h1{
+    font-size: 44px;
+    color: #596aff;
+
+}
+.lefthome p{
+    font-size: 20px;
+    padding: 1rem 0rem;
+}
+.homebtn{
+    width: 80%;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+.campany-btn{
+    color: white;
+    background-color: #596aff;
+    
+}
+
+.righthome{
+    width:50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.righthome img{
+    width:80%;
+    height: 50%;
+}

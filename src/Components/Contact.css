@@ -1,0 +1,57 @@
+.contact{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.leftcontact{
+    width: 50%;
+    height: 100%;
+    padding: 2rem 1rem;
+
+
+}
+
+.leftcontact  h1,h2{
+    color: #244886;
+    font-size: 30px;
+}
+.enquirycontainer{
+    width: 80%;
+    height: 22%;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-bottom: 1px solid;
+    
+}
+.rightcontact{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: .5rem 1rem;
+
+}
+.rightcontact input{
+    width: 80%;
+    height: 8%
+}
+.rightcontact select{
+    width: 80%;
+    height: 8%
+
+}
+.rightcontact textarea{
+    width: 80%;
+    height: 20%;
+}
+.rightcontact button{
+    width: 20%;
+    height: 8%;
+    margin: 1rem;
+    background-color: #1f3e76;
+    color: white;
+    font-size: 17px;
+}
